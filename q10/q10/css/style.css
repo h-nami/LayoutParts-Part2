@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-.button-flex{
+.button-flex {
   display: flex;
   justify-content: center;
 }
 
-.button{
+.button {
   display: inline-block;
   margin-right: 30px;
   padding: 0 15px;
@@ -15,97 +15,97 @@
   cursor: pointer
 }
 
-.button-red{
+.button-red {
   color: #fff;
   background-color: #fd0f0fd9;
 }
 
-.button-blue{
+.button-blue {
   color: #fff;
   background-color: #170ffdd9;
 }
 
-.button-green{
+.button-green {
   color: #000;
   background-color: #0ffd0fd9;
 }
 
-.button-sha-red{
+.button-sha-red {
   color: #fff;
   background-color: #fd0f0fd9;
   box-shadow: 0px 5px rgba(63, 5, 5, 0.851);
 }
 
-.button-sha-blue{
+.button-sha-blue {
   color: #fff;
   background-color: #170ffdd9;
   box-shadow: 0px 5px rgba(5, 13, 63, 0.851);
 }
 
-.button-sha-green{
+.button-sha-green {
   color: #000;
   background-color: #0ffd0fd9;
   box-shadow: 0px 5px rgba(5, 63, 5, 0.851);
 }
 
-.button-trans-red{
+.button-trans-red {
   color: #fff;
   background-color: #fd0f0fd9;
   box-shadow: 0px 5px rgba(63, 5, 5, 0.851);
 }
 
-.button-trans-red:active{
+.button-trans-red:active {
   transform: translateY(5px);
   box-shadow: none;
 }
 
-.button-trans-blue{
+.button-trans-blue {
   color: #fff;
   background-color: #170ffdd9;
   box-shadow: 0px 5px rgba(5, 13, 63, 0.851);
 }
 
-.button-trans-blue:active{
+.button-trans-blue:active {
   transform: translateY(5px);
   box-shadow: none;
 }
 
-.button-trans-green{
+.button-trans-green {
   color: #fff;
   background-color: #0ffd0fd9;
   box-shadow: 0px 5px rgba(5, 63, 5, 0.851);
 }
 
-.button-trans-green:active{
+.button-trans-green:active {
   transform: translateY(5px);
   box-shadow: none;
 }
 
-.button-double{
+.button-double {
   color: #67c5ff;
   border: double 4px #67c5ff;
 }
 
-.button-double:hover{
+.button-double:hover {
   background: #fffbef;
 }
 
-.button-dashed{
+.button-dashed {
   color: #67c5ff;
   border: dotted 4px #75caff;
 }
 
-.button-dashed:hover{
+.button-dashed:hover {
   border: dashed 4px #75caff;
 }
 
-.button-back{
+.button-back {
   color: #0079a5f8;
   background: #d0edfff8;
   border: dashed 4px #67c5ff;
 }
 
-.button-back:hover{
+.button-back:hover {
   color: #67c5ff;
   background: #fff;
 }

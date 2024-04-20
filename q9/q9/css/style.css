@@ -126,7 +126,7 @@
   transition-duration: 0.5s;
 }
 
-.box:last-child{
+.box:last-child {
   border-right: 1px solid #000000;
 }
 

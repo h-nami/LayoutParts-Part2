@@ -1,5 +1,6 @@
 @charset "UTF-8";
-.balloon{
+
+.balloon {
   position: relative;
   background: #fad296;
   width: 500px;
@@ -11,7 +12,7 @@
   border: solid 5px #8f5a0a;
 }
 
-.balloon::before{
+.balloon::before {
   position: absolute;
   content: "";
   width: 0;
@@ -19,12 +20,12 @@
   border-top: 28px solid #8f5a0a;
   border-right: 25px solid transparent;
   /* border-bottom: 0px solid #8f5a0a; */
-  border-left: 25px solid transparent; 
+  border-left: 25px solid transparent;
   top: 100%;
-  left: 6%; 
+  left: 6%;
 }
 
-.balloon::after{
+.balloon::after {
   position: absolute;
   content: "";
   width: 0;
@@ -32,7 +33,7 @@
   border-top: 20px solid #fad296;
   border-right: 20px solid transparent;
   /* border-bottom: 0px solid transparent; */
-  border-left: 20px solid transparent; 
+  border-left: 20px solid transparent;
   top: 100%;
-  left: 7%; 
+  left: 7%;
 }
